@@ -1,0 +1,95 @@
+.cc-table tr.is-inactive td {
+  color: silver;
+}
+.cc-table tr.is-oracle td {
+  background-color: #f2f2f2;
+}
+.cc-table tr:not(.is-oracle):not(.is-inactive):hover:not(.updated) td {
+  /*background-color: #fffed4;*/
+  background-color: #fff6d1;
+}
+.loading {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background: url(/img/loading.gif) 64px 64px;
+}
+.seller-ico {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  vertical-align: -0.25em;
+  margin-right: 0.5em;
+  opacity: 0.9;
+}
+tr:hover .seller-ico { opacity: 1; }
+
+.seller-coinmate { background-image: url(/img/sellers/coinmate.ico); }
+.seller-anycoin { background-image: url(/img/sellers/anycoin.png); }
+.seller-freecoin { background-image: url(/img/sellers/freecoin.ico); }
+.seller-bitstock_svcbbank, .seller-bitstock_wire, .seller-bitstock_btm, .seller-bitstock_cash, .seller-bitstock { background-image: url(/img/sellers/bitstock.ico); }
+.seller-bitstock-market { background-image: url(/img/sellers/bitstock-market.ico); }
+.seller-coinexchange { background-image: url(/img/sellers/coinexchange.png); }
+.seller-coinbank { background-image: url(/img/sellers/coinbank.png); }
+.seller-kraken { background-image: url(/img/sellers/kraken.ico); }
+.seller-ccshop { background-image: url(/img/sellers/ccshop.ico); }
+.seller-bitbeli { background-image: url(/img/sellers/bitbeli.png); }
+.seller-bitcantor, .seller-bitcantor_wire, .seller-bitcantor_dotpay { background-image: url(/img/sellers/bitcantor.png); }
+.seller-moonpay_card, .seller-moonpay_wire, .seller-moonpay { background-image: url(/img/sellers/moonpay.png); }
+.seller-simplecoin { background-image: url(/img/sellers/simplecoin.png); }
+.seller-changebtc { background-image: url(/img/sellers/changebtc.ico); }
+.seller-sonatacoin { background-image: url(/img/sellers/sonatacoin.png); }
+.seller-hashback, .seller-hashback_card, .seller-hashback_wire { background-image: url(/img/sellers/hashback.png); }
+.seller-virtualproperty { background-image: url(/img/sellers/virtualproperty.png); }
+.seller-coingi { background-image: url(/img/sellers/coingi.ico); }
+.seller-kuna { background-image: url(/img/sellers/kuna.ico); }
+.seller-bitbay { background-image: url(/img/sellers/bitbay.ico); }
+.seller-tokensnet { background-image: url(/img/sellers/tokensnet.ico); }
+.seller-bity { background-image: url(/img/sellers/bity.ico); }
+.seller-bitvavo { background-image: url(/img/sellers/bitvavo.png); }
+.seller-exmo { background-image: url(/img/sellers/exmo.ico); }
+.seller-extstock { background-image: url(/img/sellers/extstock.png); }
+.seller-bitpanda { background-image: url(/img/sellers/bitpanda.png); }
+.seller-eterbase { background-image: url(/img/sellers/eterbase.png); }
+.seller-tokeneo { background-image: url(/img/sellers/tokeneo.ico); }
+.seller-bitmaszyna { background-image: url(/img/sellers/bitmaszyna.png); }
+.seller-kantorbitcoin { background-image: url(/img/sellers/kantorbitcoin.webp); }
+.seller-cex, .seller-cex-instant { background-image: url(/img/sellers/cex.png); }
+.seller-bitcoinmat { background-image: url(/img/sellers/bitcoinmat.ico); }
+
+.gwei-logo { background-image: url(https://gwei.cz/img/logo.png); background-size: 100px 100px; width: 100px; height: 100px; display: inline-block; }
+
+.is-green { color: green; }
+.is-yellow { color: orange; }
+.is-red { color: red; }
+
+.flag { margin-right: 0.7em; opacity: 0.3; }
+.flag-country { opacity: 0.3; font-size: 1.2em; }
+.flag.fixed { opacity: 1; }
+tr:hover .flag, tr:hover .flag-country { opacity: 1; }
+tr.updated {
+  background-color: green;
+}
+tr.updated.make {
+  background-color: white;
+}
+tr.updated.make.mk-good {
+  animation: updated-good 2s;
+}
+tr.updated.make.mk-bad {
+  animation: updated-bad 2s;
+}
+@keyframes updated-good {
+  from {background-color: #c6f7d3;}
+  to {background-color: white;}
+}
+@keyframes updated-bad {
+  from {background-color: #f7ccc6;}
+  to {background-color: white;}
+}
+.level-item.padded {
+  margin-left: 1.5em;
+}
+
+#chart-area { width: 500px; height: 100px; }

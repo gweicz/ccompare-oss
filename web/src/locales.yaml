@@ -1,0 +1,63 @@
+cs:
+  translation:
+    header: Nejvýhodnější kurzy kryptoměn v Evropě
+    difference: Rozdíl
+    price: Cena
+    amount: Částka
+    rate: Kurz
+    buy: Koupit
+    sell: Prodat
+    url_buy: nakup
+    url_sell: prodej
+    for: za
+    search: Hledat
+    alt_currencies: Alternativní měny
+    reference_price: Referenční cena
+    reference_currency: Referenční měna
+    live_mode: Živý režim
+    note_update: Zdrojové data jsou aktualizovány každých 30 sekund.
+    note_price1: Ceny a kurzy jsou včetně poplatků za směnu. Poplatky za vklad/výběr nejsou zohledněny.
+    note_price2: Ceny a kurzy na burze (viz. ikonka burzy <i class="fas fa-analytics"></i>) jsou počítány přímo z order-booku.
+    footer_author: 'Vytvořeno <a href="https://gwei.cz">Gwei.cz</a> komunitou&nbsp;&nbsp; ❤️  &nbsp;pro Vás s láskou'
+en:
+  translation:
+    header: The best cryptocurrencies rates in Europe
+    difference: Difference
+    price: Price
+    amount: Amount
+    rate: Rate
+    buy: Buy
+    sell: Sell
+    url_buy: buy
+    url_sell: sell
+    for: for
+    search: Search
+    alt_currencies: Alternative currencies
+    reference_price: Reference price
+    reference_currency: Reference currency
+    live_mode: Live mode
+    note_update: Source data are updated every 30 seconds.
+    note_price1: Prices and rates include exchange fees. Deposit / withdrawal fees are not taken into account.
+    note_price2: Prices and rates on exchanges (see the exchange icon <i class="fas fa-analytics"></i>) are calculated directly from the order book.
+    footer_author: 'Created by <a href="https://gwei.cz">Gwei.cz</a> community&nbsp;&nbsp; ❤️  &nbsp;for you with love'
+
+ua:
+  translation:
+    header: Найкращий курс криптовалют в Европі
+    difference: Різниця
+    price: Ціна
+    amount: Сумма
+    rate: Курс
+    buy: Купівля
+    sell: Продаж
+    url_buy: kupyty
+    url_sell: prodaty
+    for: для
+    search: Пошук
+    alt_currencies: Альтернативні валюти
+    reference_price: Орієнтовна ціна
+    reference_currency: Орієнтовна курс
+    note_update: Вихідні дані оновлюються кожні 30 секунд.
+    note_price1: 'Ціни та курси включно з комісією обміну. Депозит / зняття коштів не враховується.'
+    note_price2: 'Ціни та курси обміну (див. значок обміну <i class = "fas fa-analytics"> </i>) розраховуються безпосередньо з книги замовлень.'
+    footer_author: "Створено для тебе з любов'ю спільнотою <a href=\"https://gwei.cz\">Gwei.cz</a> &nbsp;&nbsp; ❤️  &nbsp;для тебе з любов'ю"

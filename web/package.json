@@ -1,0 +1,33 @@
+{
+  "name": "ccompare-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel watch --no-hmr --no-source-maps src/index.html"
+  },
+  "standard": {
+    "ignore": [
+      "/dist"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@hapi/nes": "^12.0.3",
+    "bulmaswatch": "^0.8.1",
+    "chart.js": "^2.9.3",
+    "i18next": "^19.7.0",
+    "js-yaml": "^3.14.0",
+    "mithril": "^2.0.4",
+    "numeral": "^2.0.6",
+    "parcel": "^1.12.4",
+    "twemoji": "^13.0.1",
+    "uson": "^0.3.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}

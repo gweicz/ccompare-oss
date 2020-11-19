@@ -1,0 +1,4 @@
+- name: ccompare-czsk-api
+  script: index.js
+  ignore_watch:
+    - cache
